@@ -1,18 +1,22 @@
 {
   "name": "multer-qiniu-cloud-storage",
   "version": "1.0.0",
-  "description": "qiniu cloud storage for multer",
+  "description": "a custom multer for qiniu cloud storage ",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuangChenglee/multer-qiniu-cloud-storage.git"
   },
   "keywords": [
     "qiniu",
     "multer",
     "storage"
   ],
-  "author": "skylooker",
+  "author": "HuangChenglee",
   "license": "MIT",
   "devDependencies": {
     "@types/multer": "^1.4.7",
