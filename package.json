@@ -1,6 +1,6 @@
 {
   "name": "multer-qiniu-cloud-storage",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a custom multer for qiniu cloud storage ",
   "main": "lib/index.js",
   "scripts": {

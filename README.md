@@ -36,7 +36,7 @@ import qiniuStorage from 'multer-qiniu-cloud-storage';
     }),
   )
   uploadFile(@UploadedFile() file) {
-    return `http://qy2pn9k4f.hn-bkt.clouddn.com/${file.filename}`;
+    console.log(file)
   }
 ```
 
