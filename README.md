@@ -16,7 +16,7 @@ or
 In Nest
 
 ```javascript
-import qiniuStorage from './multer-qiniu-cloud-storage';
+import qiniuStorage from 'multer-qiniu-cloud-storage';
 
 @UseInterceptors(
     FileInterceptor('file', {
@@ -45,7 +45,7 @@ In Express
 ```javascript
 import * as multer from 'multer';
 import * as express from 'express';
-import qiniuStorage from './multer-qiniu-cloud-storage';
+import qiniuStorage from 'multer-qiniu-cloud-storage';
 
 const app = express();
 
